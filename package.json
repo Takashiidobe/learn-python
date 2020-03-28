@@ -1,0 +1,17 @@
+{
+	"name": "learn-python",
+	"version": "0.1.0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "docz dev",
+		"build": "docz build",
+		"serve": "docz serve"
+	},
+	"dependencies": {
+		"docz": "latest",
+		"prop-types": "^15.7.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-syntax-highlighter": "^12.2.1"
+	}
+}
