@@ -5,7 +5,8 @@
 	"scripts": {
 		"dev": "docz dev",
 		"build": "docz build",
-		"serve": "docz serve"
+		"serve": "docz serve",
+		"new": "./gen.py"
 	},
 	"dependencies": {
 		"docz": "latest",

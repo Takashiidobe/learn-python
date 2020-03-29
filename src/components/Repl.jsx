@@ -9,6 +9,7 @@ const Repl = ({ src }) => {
 				height="400px"
 				width="100%"
 				src={src}
+				title={src || 'title'}
 				scrolling="no"
 				frameBorder="no"
 				allowTransparency="true"
