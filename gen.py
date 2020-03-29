@@ -3,7 +3,7 @@
 from sys import argv
 
 name = argv[1].split('/')[-1]
-menu = argv[1].split('/')[-2]
+menu = argv[1].split('/')[-2].title()
 name = name.split('.')[0]
 
 title = name.split('_')[1]
