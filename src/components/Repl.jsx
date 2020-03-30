@@ -2,13 +2,13 @@ import React from 'react';
 import LazyLoad from 'react-lazyload';
 
 const Repl = ({ src }) => {
-	if (!src) src = 'https://repl.it/languages/python3';
+	if (!src) src = 'https://repl.it/repls/TroubledVillainousOrder';
 	return (
 		<LazyLoad>
 			<iframe
 				height="400px"
 				width="100%"
-				src={src}
+				src={src + '?lite=true'}
 				title={src || 'title'}
 				scrolling="no"
 				frameBorder="no"
