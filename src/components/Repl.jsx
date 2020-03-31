@@ -12,8 +12,7 @@ const Repl = ({ src }) => {
 				title={src || 'title'}
 				scrolling="no"
 				frameBorder="no"
-				allowTransparency="true"
-				allowFullScreen="true"
+				allowFullScreen={true}
 				sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"
 			/>
 		</LazyLoad>
