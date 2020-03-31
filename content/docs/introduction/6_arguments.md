@@ -1,5 +1,5 @@
 ---
-name: 6. Arguments
+name: Arguments
 date: 2020-03-30T21:40:11-05:00
 draft: false
 ---
