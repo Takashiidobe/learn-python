@@ -1,4 +1,7 @@
-[[redirects]]
-  from = "/*"
-  to = "/"
-  status = 200
+[build]
+publish = "public"
+command = "hugo --gc --minify --theme book"
+
+[context.production.environment]
+HUGO_VERSION = "0.68.3"
+HUGO_ENV = "production"

@@ -1,0 +1,4 @@
+baseURL = "https://learn-python-now.netlify.com/"
+languageCode = "en-us"
+title = "Learn Python"
+

@@ -1,0 +1,23 @@
+{{ if .Inner}}
+<iframe
+  height="400px"
+  width="100%"
+  src="{{.Inner}}?lite=true"
+  scrolling="no"
+  frameborder="no"
+  allowfullscreen={true}
+  sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"
+>
+</iframe>
+{{ else }}
+<iframe
+  height="400px"
+  width="100%"
+  src="https://repl.it/repls/TroubledVillainousOrder?lite=true"
+  scrolling="no"
+  frameborder="no"
+  allowfullscreen={true}
+  sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"
+>
+</iframe>
+{{ end }}
