@@ -1,4 +1,7 @@
 baseURL = "https://learn-python-now.netlify.com/"
 languageCode = "en-us"
 title = "Learn Python"
+theme = "book"
 
+[params]
+  BookToC = false

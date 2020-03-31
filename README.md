@@ -1,3 +1,5 @@
-# Generating a page
+# Learn Python Site
 
-Generate a new page with `yarn new ${path_to_file}`
+This site teaches python.
+
+This site runs on hugo.
