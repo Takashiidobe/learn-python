@@ -28,24 +28,28 @@ A string is anything that is enclosed within `'` or `"`.
 "hello", 'hello', '0', "0", '2 + 2', "2 + 2" are all strings.
 
 String concatenation is done with the `+` operator:
+
 ```python
 > 'Alice' + 'Bob'
 'AliceBob'
 ```
 
 You can also multiply strings together with the `*` operator:
+
 ```python
 > 'Alice' * 5
 'AliceAliceAliceAliceAlice'
 ```
 
 You cannot add a String and an Integer, however:
+
 ```python
 > 'Alice' + 42
 TypeError: Can't convert 'int' object to str implicitly
 ```
 
 You also cannot multiply a string by a float:
+
 ```python
 > 'Alice' * 5.0
 TypeError: can't multiply sequence by non-int of type 'float'

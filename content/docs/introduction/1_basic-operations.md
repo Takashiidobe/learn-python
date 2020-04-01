@@ -15,6 +15,7 @@ Head over to the right hand side of the REPL and type in `2 + 2`, and then hit e
 {{< repl >}}{{< /repl >}}
 
 You should see something similar to this:
+
 ```bash
 > 2 + 2
 4
