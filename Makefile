@@ -1,2 +1,2 @@
 all:
-	hugo server --minify
+	hugo server --minify --buildDrafts --gc

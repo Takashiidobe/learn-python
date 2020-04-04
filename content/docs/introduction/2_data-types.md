@@ -13,6 +13,8 @@ There are three main data types summarized below.
 | Integers               | -1000, -1, 0, 1, 1000                         |
 | Floating-point numbers | -1.25, -1.0, 0.0, float('inf'), float('-inf') |
 | Strings                | 'a', 'Hello!', '11', '10 + 10', 'Twenty'      |
+| Booleans               |                  True, False                  |
+| None                   |                      None                     | 
 
 Integers represent whole number integers. Fractions are not allowed.
 
@@ -24,6 +26,10 @@ Floating point numbers represent numbers with decimals. 5.5 is an example.
 
 Strings
 A string is anything that is enclosed within `'` or `"`.
+
+Booleans are either `True` or `False`.
+
+None is always `None`, which is the absence of a value.
 
 "hello", 'hello', '0', "0", '2 + 2', "2 + 2" are all strings.
 
